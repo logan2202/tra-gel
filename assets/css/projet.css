@@ -1,0 +1,46 @@
+
+.prev{
+    border: solid 2px  #FCB040;
+    border-radius: 6px;
+    margin: 0 8px;
+    padding: 0 20px 20px;
+    width: 241px;
+}
+.icon{
+    color: #FCB040;
+}
+body{
+    color: #367EAF
+}
+.parallax-one{
+    background-image: url(../img/parralax1.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.parallax-two{
+    background-image: url(../img/parralax2.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
