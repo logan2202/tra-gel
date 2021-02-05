@@ -1,21 +1,137 @@
 body{
     font-size: 16px;
+    font-family: "Dancing Script", "sans serif";
+    margin: 0;
 }
+
+body{
+    font-size: 16px;
+    padding: 2% 2%;
+}
+#navbar{
+  background-color: #367EAF;
+}
+
+.li.nav-item{
+    width: auto;
+    color: #FFFFFF;
+}
+
+#agencyName{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size:20px;
+}
+
+#valid{
+    padding-top: 1em;
+    border-radius: 20px;
+}
+#video{
+  padding: 3% 3%;
+}
+
+#sanitaryMeasure{
+    padding: 3% 3%;
+}
+#cruise{
+  padding: 3% 3%;
+}
+#parallaxOne{
+  padding: 3% 3%;
+}
+#stay{
+  padding: 3% 3%;
+}
+#parallaxTwo{
+  padding: 3% 3%;
+}
+#tour{
+  padding: 3% 3%;
+}
+.mask{
+    padding-left: 2em;
+}
+
+.socialNetworks{
+    padding-right : 20px;
+}
+
+i.fas.fa-rocket{
+    text-align: right;
+
+}
+
+
+
+
+.prev{
+    border: solid 2px  #FCB040;
+    border-radius: 6px;
+    margin: 0 8px;
+    padding: 2% 20px 20px;
+    width: 241px;
+}
+.icon{
+    color: #367EAF;
+	padding-bottom: 2%;
+}
+.card-body{
+	 border: solid 2px  #367EAF;
+}
+.card-footer{
+	background-color: #FCB040;
+}
+.parallax-one{
+    background-image: url(../img/parralax1.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.parallax-two{
+    background-image: url(../img/parralax2.png);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+footer{
+    padding-top: 4em;
+    background-color: #367EAF;
+    padding-bottom: 2em;
+}
+
 
 .plane{
     padding-left: 20%;
 }
 
 #navbar{
-    position: fixed;
     width: 100%;
-    padding-left: auto;
+    padding-left: 100px;
     background-color: #FCB040;
     color: #FFFFFF;
     /*display:inline-block;
     z-index: 9999;*/
-    font-size: 20px;  
-    margin-bottom: 2em;
+    font-size: 20px;  ;
     color: #367EAF;
     text-align: center;
 }
@@ -47,7 +163,7 @@ body{
 }
 
 footer{
-    padding-top: 4em;
+    padding-top: 2em;
     background-color: #367EAF;
     padding-bottom: 2em;
 }
@@ -57,12 +173,23 @@ footer{
 }
 
 .socialNetworks{
-    padding-right : 20px;
+    padding-right : 1em;
+    padding-left : 1em;
+    margin-right: 1em;
+    margin: 1em;
+    padding: 1em;
 }
 
 i.fas.fa-rocket{
-    text-align: right;
+    padding-left: 90%;
+    color: red;
 
+}
+
+#postCard{
+    font-weight: bold;
+    padding-left:2em;
+    text-align: center;
 }
 
 

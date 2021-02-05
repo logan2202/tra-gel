@@ -1,0 +1,68 @@
+
+body{
+  padding: 2px 2px;
+    font-size: 16px;
+}
+
+.plane{
+    padding-left: 20%;
+}
+
+#navbar{
+    position: fixed;
+    width: 100%;
+    padding-left: auto;
+    background-color: #FCB040;
+    color: #FFFFFF;
+    /*display:inline-block;
+    z-index: 9999;*/
+    font-size: 20px;
+    margin-bottom: 2em;
+    color: #367EAF;
+    text-align: center;
+}
+
+.li.nav-item{
+    width: auto;
+    color: #FFFFFF;
+}
+
+#logoTraGel{
+    padding-left: 10%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #367EAF;
+    color: #FCB040;
+    text-align: center;
+}
+
+#agencyName{
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size:30px;
+}
+
+
+
+#valid{
+    padding-top: 1em;
+    border-radius: 20px;
+}
+
+footer{
+    padding-top: 4em;
+    background-color: #367EAF;
+    padding-bottom: 2em;
+}
+
+.mask{
+    padding-left: 2em;
+}
+
+.socialNetworks{
+    padding-right : 20px;
+}
+
+i.fas.fa-rocket{
+    text-align: right;
+
+}
